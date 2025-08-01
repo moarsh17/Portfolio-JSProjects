@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Projects Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">JSProjects</a></li>
+            <li><a href="pomodoro.html">Pomodoro App</a></li>
+            <li><a href="todo.html">Todo List</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">JSProjects</a></li>
+            <li class="hideOnMobile"><a href="pomodoro.html">Pomodoro App</a></li>
+            <li class="hideOnMobile"><a href="todo.html">Todo List</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <section class="home">
+        <h1>Hi, I'm Arsh</h1>
+        <p>A passionate web developer specializing in JavaScript and modern web technologies. This dashboard contains projects that demonstrate my problem-solving skills, creativity, and love for coding.</p>
+        <ul>
+            <li>✅ Pomodoro Timer for productivity</li>
+            <li>✅ To-Do List for tracking daily activities</li>
+            <li>✅ Interactive UI components</li>
+        </ul>
+        <div class="img1"><img src="coding.png"></div>
+        <div class="img2"><img src="workspace.png"></div>
+        <div class="img3"><img src="development-plan.png"></div>
+        <div class="img4"><img src="idea-develop.png"></div>
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
